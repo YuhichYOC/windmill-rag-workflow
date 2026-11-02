@@ -554,7 +554,7 @@ class SearchWeb {
         },
         {
           role: "user",
-          content: JSON.stringify(`<question>${nfkc}</question><result>${JSON.stringify(results)}</result>`)
+          content: `<question>${nfkc}</question><result>${JSON.stringify(results)}</result>`
         }
       ]
     };
